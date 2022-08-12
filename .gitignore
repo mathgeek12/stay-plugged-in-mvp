@@ -1,1 +1,5 @@
 # Distribution / packaging
+app/.secrets
+
+# JetBrains / IntelliJ IDEA project files
+.idea/
