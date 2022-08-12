@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+aerich = "*"
+asyncpg = "*"
+tortoise-orm = "*"
+dynaconf = "*"
+black = "*"
+flake8 = "*"
+
+[dev-packages]
+uvicorn = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+server = "python -m server"
+init-db = "python -m bin.init_db"
+migrate = "python -m bin.migrate_db"
+format = "black app/"
+lint = "flake8 app/"

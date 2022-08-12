@@ -1,0 +1,8 @@
+default:
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PORT: 5432
+  POSTGRES_DB_NAME: stayplugged
+  POSTGRES_PASSWORD: ""
+  POSTGRES_HOST: localhost
+  ALLOWED_ORIGINS: ['*']
+  DOCS_ENABLED: True
